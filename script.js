@@ -11,5 +11,5 @@ function firstWord(str) {
 function extractFirstWord() {
   const input = document.getElementById("inputString").value;
   const result = firstWord(input);
-  document.getElementById("output").textContent = "First Word: " + result;
+  document.getElementById("output").textContent = "First Word: " + result;
 }
